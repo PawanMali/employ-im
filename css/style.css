@@ -9045,25 +9045,12 @@ transform: translateY(-18px);
 	position: relative;
 }
 
-/*
 .photo-section:before {
 	content: "";
 	width: 100%;
 	height: 100%;
 	background-color: #333;
 	opacity: 0.5;
-	display: block;
-	position: absolute;
-	top: 0;
-}
-*/
-
-.photo-section:before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: #333;
-	opacity: 0.0;
 	display: block;
 	position: absolute;
 	top: 0;
