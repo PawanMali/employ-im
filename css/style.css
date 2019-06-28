@@ -1659,9 +1659,10 @@ li.mm-vertical.mm-opened>.mm-panel {
     display: none
 }
 
+/* Mobile Menu Top Bar */
 .mm-panel.mm-hasnavbar .mm-navbar {
     display: block;
-    background-color: #262626;
+    background-color: #1C1C43;
 }
 
 .mm-listview,
@@ -1674,7 +1675,7 @@ li.mm-vertical.mm-opened>.mm-panel {
 
 .mm-listview {
     font: inherit;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px
 }
 
@@ -1775,8 +1776,9 @@ li.mm-vertical.mm-opened>.mm-panel {
     margin-top: -10px;
 }
 
+/* Main Mobile Menu Area */
 .mm-menu {
-    background: #2a2a2a;
+    background: #1C1C43;
     border-color: rgba(255,255,255,0.1);
     color: #fff;
 }
@@ -2102,7 +2104,7 @@ em.mm-counter+a.mm-fullsubopen+span {
 	#header { height: 76px; }
 
 	#logo { border: none; }
-	#logo img { border: none; max-width: 100px; height: auto; }
+	#logo img { border: none; max-width: 150px; height: auto; }
 	
 	header.fullwidth .container {
 		padding: 0 20px;
