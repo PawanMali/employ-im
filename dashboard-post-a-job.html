@@ -498,24 +498,55 @@
 									</div>
 								</div>
                                 
-                                <div class="col-xl-12">
+                                <div class="col-xl-8">
 									<div class="submit-field">
 										<h5>Job Description</h5>
-										<textarea cols="30" rows="5" class="with-border"></textarea>
+										<textarea cols="30" rows="8" class="with-border"></textarea>
 										<div class="uploadButton margin-top-30">
 											<input class="uploadButton-input" type="file" accept="image/*, application/pdf" id="upload" multiple/>
-											<label class="uploadButton-button ripple-effect" for="upload">Upload Files</label>
-											<span class="uploadButton-file-name">Images or documents that might be helpful in describing your job</span>
+											<label class="uploadButton-button ripple-effect" for="upload">Upload Artwork</label>
+											<span class="uploadButton-file-name">Displays at the top of your job posting. Recommended resolution: 1000 x 500</span>
 										</div>
 									</div>
-								</div>           
+								</div>
+                                
+									<div class="col-xl-4">
+										<div class="submit-field">
+											<h5>Relevant Attachments <i class="help-icon" data-tippy-placement="right" title="This might include a cover letter, personal statement or maybe a portfolio of your work"></i></h5>
+											
+											<!-- Attachments -->
+											<div class="attachments-container margin-top-0 margin-bottom-0">
+												<div class="attachment-box ripple-effect">
+													<span>Example Document</span>
+													<i>PDF</i>
+													<button class="remove-attachment" data-tippy-placement="top" title="Remove"></button>
+												</div>
+												<div class="attachment-box ripple-effect">
+													<span>Contract</span>
+													<i>DOCX</i>
+													<button class="remove-attachment" data-tippy-placement="top" title="Remove"></button>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+											
+											<!-- Upload Button -->
+											<div class="uploadButton margin-top-0">
+												<input class="uploadButton-input" type="file" accept="image/*, application/pdf" id="upload" multiple/>
+												<label class="uploadButton-button ripple-effect" for="upload">Upload Files</label>
+												<span class="uploadButton-file-name">Maximum file size: 10 MB</span>
+											</div>
+										</div>
+									</div>                                
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-xl-12">
-					<a href="#" class="button ripple-effect big margin-top-30"><i class="icon-feather-plus"></i> Post a Job</a>
+                <div class="col-xl-6">
+					<a href="#" class="button dark full-width ripple-effect button-sliding-icon big margin-top-30">Preview Job <i class="icon-feather-eye"></i></a>
+				</div>
+				<div class="col-xl-6">
+					<a href="#" class="button full-width ripple-effect button-sliding-icon big margin-top-30">Post Job <i class="icon-feather-plus"></i></a>
 				</div>
 
 			</div>
