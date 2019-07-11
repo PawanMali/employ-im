@@ -7566,6 +7566,7 @@ input:checked + .switch-button:before {
 	background-color: #fff;
 	border-radius: 4px;
 	box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+	margin-bottom: 20px;
 }
 
 /* Video */
@@ -7878,7 +7879,7 @@ input:checked + .switch-button:before {
 	.intro-banner-search-form .intro-search-button {
 		margin-top: 30px;
 	}
-
+	
 	/* Intro Stats */
 	.intro-stats {
 		flex-direction: column;
