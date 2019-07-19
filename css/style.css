@@ -3774,7 +3774,7 @@ body .comment-content p { padding: 5px 0; }
     width: 100%;
     z-index: 9;
     border-radius: 4px;
-    background: linear-gradient(to top, rgba(51,51,51,0.8) 0%, rgba(51,51,51,0.7) 35%, rgba(51,51,51,0.6) 60%, rgba(51,51,51,0.6) 100%);
+    background: linear-gradient(to top, rgba(38,38,38,0.8) 25%, rgba(38,38,38,0.8) 50%, rgba(38,38,38,0.8) 75%, rgba(38,38,38,0.8) 100%);
 	transition: 0.4s;
 }
 
@@ -3846,6 +3846,117 @@ span.blog-item-tag {
 }
 
 .blog-post-tags li i {
+	margin-right: 3px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+/* ---------------------------------- */
+/* Pricing Item
+------------------------------------- */
+
+.pricing-compact-item-container {
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	background: transparent;
+	transform: translate3d(0,0,0);
+	transition: transform 0.4s;
+	margin-bottom: 30px;
+}
+
+.pricing-compact-item-container:hover { transform: translateY(-10px); }
+
+.pricing-compact-item {
+	background: #ccc;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	height: 100%;
+	display: block;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 460px;
+	z-index: 100;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+@media (max-width: 1366px) { .pricing-compact-item { height: 420px; } }
+
+.pricing-compact-item img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.pricing-compact-item:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    border-radius: 4px;
+    background: linear-gradient(to top, rgba(38,38,38,0.8) 25%, rgba(38,38,38,0.8) 50%, rgba(38,38,38,0.8) 75%, rgba(38,38,38,0.8) 100%);
+	transition: 0.4s;
+}
+
+
+.pricing-compact-item-content {
+	position: absolute;
+	bottom: 32px;
+	left: 0;
+	padding: 0 34px;
+	width: 100%;
+	z-index: 50;
+	box-sizing: border-box;
+}
+
+.pricing-compact-item-content h3 {
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 0;
+	font-weight: 500;
+	margin: 2px 0 0 0;
+	line-height: 30px;
+}
+
+.pricing-compact-item-content span {
+	font-size: 16px;
+	font-weight: 300;
+	display: inline-block;
+	color: rgba(255,255,255,0.7);
+}
+
+.pricing-compact-item-content p {
+	font-size: 16px;
+	font-weight: 300;
+	display: inline-block;
+	color: rgba(255,255,255,0.8);
+	margin: 7px 0 0 0;
+}
+
+.pricing-post-tags {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	opacity: 0.9;
+}
+
+.pricing-post-tags li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.pricing-post-tags li i {
 	margin-right: 3px;
 	font-weight: normal;
 	display: inline-block;
